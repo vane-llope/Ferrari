@@ -1,0 +1,73 @@
+$backgroundColor : rgb(206, 11, 11);
+.header {
+    margin-top: 10px;
+    border-radius: 50% 0 50% 0;
+    background-color: $backgroundColor;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    padding-top: 7px;
+    text-shadow: 2px 2px 4px #000000;
+}
+.showInfo{
+    padding: 0 20%;
+    text-shadow: 2px 2px 4px #f6e7e7;
+}
+.logoStyle{
+    height: 40px;
+    width: 30px;
+    display: flex;
+}
+.cardImage{
+    height: 200px;
+}
+.detailtext{
+    font-size: 22px;
+    color: black;
+    text-shadow: 2px 2px 4px #fff;
+}
+.buyImage{
+    width: 70%;
+    margin:auto;
+    border: none;
+    margin-bottom: 10%;
+}
+.buyText{
+    width: 30%;
+    margin-top: 30px;
+    border: none;
+    a{
+        
+        text-shadow: 2px 2px 4px rgb(185, 182, 182);
+        margin-left: 30%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        text-decoration: none;
+        font-size: 20px;
+        color: black;
+    }
+    .buybtn{
+        background-color: $backgroundColor;
+        color: #fff;
+        text-shadow: 2px 2px 4px #000000;
+
+    }
+}
+.disablebtn{
+    background-color: #383737;
+}
+.media{
+    height: 100px;
+    display: flex;
+    align-items: flex-start;
+    background-color: $backgroundColor;
+    padding: 20px 0 0  30px;
+    justify-content: space-between;
+    color: white;
+  .footerText {
+    padding: 20px 30px 0  0;
+    text-shadow: 2px 2px 4px #000000;
+  }
+}

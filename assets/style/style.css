@@ -1,0 +1,101 @@
+.header {
+  margin-top: 10px;
+  border-radius: 50% 0 50% 0;
+  background-color: #ce0b0b;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 80px;
+  padding-top: 7px;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.showInfo {
+  padding: 0 20%;
+  text-shadow: 2px 2px 4px #f6e7e7;
+}
+
+.logoStyle {
+  height: 40px;
+  width: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cardImage {
+  height: 200px;
+}
+
+.detailtext {
+  font-size: 22px;
+  color: black;
+  text-shadow: 2px 2px 4px #fff;
+}
+
+.buyImage {
+  width: 70%;
+  margin: auto;
+  border: none;
+  margin-bottom: 10%;
+}
+
+.buyText {
+  width: 30%;
+  margin-top: 30px;
+  border: none;
+}
+
+.buyText a {
+  text-shadow: 2px 2px 4px #b9b6b6;
+  margin-left: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+
+.buyText .buybtn {
+  background-color: #ce0b0b;
+  color: #fff;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.disablebtn {
+  background-color: #383737;
+}
+
+.media {
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  background-color: #ce0b0b;
+  padding: 20px 0 0  30px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: white;
+}
+
+.media .footerText {
+  padding: 20px 30px 0  0;
+  text-shadow: 2px 2px 4px #000000;
+}
+/*# sourceMappingURL=style.css.map */
